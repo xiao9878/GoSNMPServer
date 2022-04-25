@@ -3,11 +3,8 @@ package main
 import "os"
 import "strings"
 import "github.com/sirupsen/logrus"
-import "github.com/slayercat/gosnmp"
-import "github.com/slayercat/GoSNMPServer"
-import "github.com/slayercat/GoSNMPServer/mibImps"
-
-import "github.com/urfave/cli/v2"
+import "gitlab.hexcloud.cn/wangxiao/gosnmp"
+import "gitlab.hexcloud.cn/wangxiao/gosnmpServer/mibImps"
 
 func makeApp() *cli.App {
 	return &cli.App{

@@ -1,10 +1,8 @@
 package mibImps
 
-import "github.com/slayercat/GoSNMPServer"
-
-import "github.com/slayercat/GoSNMPServer/mibImps/dismanEventMib"
-import "github.com/slayercat/GoSNMPServer/mibImps/ifMib"
-import "github.com/slayercat/GoSNMPServer/mibImps/ucdMib"
+import "gitlab.hexcloud.cn/wangxiao/gosnmpServer/mibImps/dismanEventMib"
+import "gitlab.hexcloud.cn/wangxiao/gosnmpServer/mibImps/ifMib"
+import "gitlab.hexcloud.cn/wangxiao/gosnmpServer/mibImps/ucdMib"
 
 func init() {
 	g_Logger = GoSNMPServer.NewDiscardLogger()

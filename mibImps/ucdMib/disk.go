@@ -1,8 +1,7 @@
 package ucdMib
 
 import "fmt"
-import "github.com/slayercat/gosnmp"
-import "github.com/slayercat/GoSNMPServer"
+import "gitlab.hexcloud.cn/wangxiao/gosnmp"
 import "github.com/shirou/gopsutil/disk"
 
 // NameOverride configs what path disk usage will returns.

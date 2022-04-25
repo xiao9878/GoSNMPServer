@@ -3,9 +3,9 @@ package GoSNMPServer
 import "testing"
 
 import (
-	"github.com/slayercat/gosnmp"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
+	"gitlab.hexcloud.cn/wangxiao/gosnmp"
 )
 
 type ResponseForBufferTestSuite struct {
