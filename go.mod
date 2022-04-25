@@ -1,4 +1,4 @@
-module gitlab.hexcloud.cn/wangxiao/GoSNMPServer
+module gitlab.hexcloud.cn/third-party/GoSNMPServer
 
 go 1.13
 
@@ -8,8 +8,9 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/procfs v0.0.8
 	github.com/shirou/gopsutil v2.19.12+incompatible
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.4.1-0.20200129000828-ea72eb91592e
-	gitlab.hexcloud.cn/wangxiao/gosnmp latest
+	github.com/urfave/cli v1.22.7
+	gitlab.hexcloud.cn/third-party/gosnmp v1.24.2
 	golang.org/x/sys v0.0.0-20200124204421-9fbb57f87de9 // indirect
 )

@@ -1,16 +1,20 @@
 package main
 
-import "os"
+import (
+	"github.com/urfave/cli"
+	"gitlab.hexcloud.cn/third-party/GoSNMPServer"
+	"os"
+)
 import "strings"
 import "github.com/sirupsen/logrus"
-import "gitlab.hexcloud.cn/wangxiao/gosnmp"
-import "gitlab.hexcloud.cn/wangxiao/gosnmpServer/mibImps"
+import "gitlab.hexcloud.cn/third-party/gosnmp"
+import "gitlab.hexcloud.cn/third-party/GoSNMPServer/mibImps"
 
 func makeApp() *cli.App {
 	return &cli.App{
 		Name:        "gosnmpserver",
 		Description: "an example server of gosnmp",
-		Commands: []*cli.Command{
+		Commands: []cli.Command{
 			{
 				Name:    "RunServer",
 				Aliases: []string{"run-server"},

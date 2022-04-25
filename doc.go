@@ -7,16 +7,16 @@ linux/amd64 and linux/386.
 
 Build your own SNMP Server, try this:
 
-	go install gitlab.hexcloud.cn/wangxiao/gosnmpServer/cmd/gosnmpserver
+	go install gitlab.hexcloud.cn/third-party/GoSNMPServer/cmd/gosnmpserver
 	$(go env GOPATH)/bin/gosnmpserver run-server
 	snmpwalk -v 3 -l authPriv  -n public -u testuser   -a md5 -A testauth -x des -X testpriv 127.0.0.1:1161 1
 
 
 Some Code Here:
 
-	import "gitlab.hexcloud.cn/wangxiao/gosnmp"
-	import "gitlab.hexcloud.cn/wangxiao/gosnmpServer"
-	import "gitlab.hexcloud.cn/wangxiao/gosnmpServer/mibImps"
+	import "gitlab.hexcloud.cn/third-party/gosnmp"
+	import "gitlab.hexcloud.cn/third-party/GoSNMPServer"
+	import "gitlab.hexcloud.cn/third-party/GoSNMPServer/mibImps"
 
 
 	master := GoSNMPServer.MasterAgent{
@@ -53,7 +53,7 @@ Serve your own oids
 
 This library provides some common oid for use.  See godoc for details.
 
-See https://gitlab.hexcloud.cn/wangxiao/gosnmpServer/tree/master/mibImps for code.
+See https://gitlab.hexcloud.cn/third-party/GoSNMPServer/tree/master/mibImps for code.
 
 Append `GoSNMPServer.PDUValueControlItem` to your SubAgent OIDS:
 

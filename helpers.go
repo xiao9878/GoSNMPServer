@@ -1,7 +1,7 @@
 package GoSNMPServer
 
 import "github.com/pkg/errors"
-import "gitlab.hexcloud.cn/wangxiao/gosnmp"
+import "gitlab.hexcloud.cn/third-party/gosnmp"
 import "strings"
 import "strconv"
 

@@ -5,7 +5,7 @@ import "io/ioutil"
 import "runtime"
 import "strings"
 import "encoding/hex"
-import "gitlab.hexcloud.cn/wangxiao/gosnmp"
+import "gitlab.hexcloud.cn/third-party/gosnmp"
 import "github.com/shirou/gopsutil/net"
 import "github.com/pkg/errors"
 

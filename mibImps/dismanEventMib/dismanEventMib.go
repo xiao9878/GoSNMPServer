@@ -1,6 +1,6 @@
 package dismanEventMib
 
-import "gitlab.hexcloud.cn/wangxiao/gosnmp"
+import "gitlab.hexcloud.cn/third-party/gosnmp"
 import "github.com/shirou/gopsutil/host"
 
 func init() {

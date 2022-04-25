@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/shirou/gopsutil/host"
-	"gitlab.hexcloud.cn/wangxiao/gosnmp"
+	"gitlab.hexcloud.cn/third-party/gosnmp"
 )
 
 type FuncGetAuthoritativeEngineTime func() uint32
