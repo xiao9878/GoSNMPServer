@@ -1,8 +1,8 @@
 package dismanEventMib
 
 import (
+	"github.com/xiao9878/GoSNMPServer"
 	"github.com/xiao9878/gosnmp"
-	"gitlhub.com/xiao9878/GoSNMPServer"
 )
 import "github.com/shirou/gopsutil/host"
 

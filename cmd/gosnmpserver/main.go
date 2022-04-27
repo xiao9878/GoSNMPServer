@@ -2,13 +2,13 @@ package main
 
 import (
 	"github.com/urfave/cli"
-	"gitlhub.com/xiao9878/GoSNMPServer"
+	"github.com/xiao9878/GoSNMPServer"
+	"github.com/xiao9878/GoSNMPServer/mibImps"
 	"os"
 )
 import "strings"
 import "github.com/sirupsen/logrus"
 import "github.com/xiao9878/gosnmp"
-import "gitlhub.com/xiao9878/GoSNMPServer/mibImps"
 
 func makeApp() *cli.App {
 	return &cli.App{

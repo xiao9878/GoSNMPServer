@@ -2,7 +2,7 @@ package ucdMib
 
 import (
 	"fmt"
-	"gitlhub.com/xiao9878/GoSNMPServer"
+	"github.com/xiao9878/GoSNMPServer"
 )
 import "github.com/xiao9878/gosnmp"
 import "github.com/shirou/gopsutil/load"

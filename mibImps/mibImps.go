@@ -1,11 +1,11 @@
 package mibImps
 
 import (
-	"gitlhub.com/xiao9878/GoSNMPServer"
-	"gitlhub.com/xiao9878/GoSNMPServer/mibImps/dismanEventMib"
+	"github.com/xiao9878/GoSNMPServer"
+	"github.com/xiao9878/GoSNMPServer/mibImps/dismanEventMib"
+	"github.com/xiao9878/GoSNMPServer/mibImps/ifMib"
+	"github.com/xiao9878/GoSNMPServer/mibImps/ucdMib"
 )
-import "gitlhub.com/xiao9878/GoSNMPServer/mibImps/ifMib"
-import "gitlhub.com/xiao9878/GoSNMPServer/mibImps/ucdMib"
 
 func init() {
 	g_Logger = GoSNMPServer.NewDiscardLogger()

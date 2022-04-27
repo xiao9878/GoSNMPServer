@@ -2,7 +2,7 @@ package ifMib
 
 import (
 	"fmt"
-	"gitlhub.com/xiao9878/GoSNMPServer"
+	"github.com/xiao9878/GoSNMPServer"
 )
 import "io/ioutil"
 import "runtime"

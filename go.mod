@@ -1,4 +1,4 @@
-module gitlhub.com/xiao9878/GoSNMPServer
+module github.com/xiao9878/GoSNMPServer
 
 go 1.13
 
