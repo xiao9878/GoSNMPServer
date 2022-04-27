@@ -1,7 +1,10 @@
 package ucdMib
 
-import "fmt"
-import "gitlab.hexcloud.cn/third-party/gosnmp"
+import (
+	"fmt"
+	"gitlhub.com/xiao9878/GoSNMPServer"
+)
+import "github.com/xiao9878/gosnmp"
 import "github.com/shirou/gopsutil/load"
 
 // SystemLoadOIDs Returns a list of system Load.

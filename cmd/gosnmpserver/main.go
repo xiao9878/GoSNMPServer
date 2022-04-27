@@ -2,13 +2,13 @@ package main
 
 import (
 	"github.com/urfave/cli"
-	"gitlab.hexcloud.cn/third-party/GoSNMPServer"
+	"gitlhub.com/xiao9878/GoSNMPServer"
 	"os"
 )
 import "strings"
 import "github.com/sirupsen/logrus"
-import "gitlab.hexcloud.cn/third-party/gosnmp"
-import "gitlab.hexcloud.cn/third-party/GoSNMPServer/mibImps"
+import "github.com/xiao9878/gosnmp"
+import "gitlhub.com/xiao9878/GoSNMPServer/mibImps"
 
 func makeApp() *cli.App {
 	return &cli.App{

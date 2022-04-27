@@ -1,5 +1,7 @@
 package ucdMib
 
+import "gitlhub.com/xiao9878/GoSNMPServer"
+
 func init() {
 	g_Logger = GoSNMPServer.NewDiscardLogger()
 }

@@ -1,6 +1,9 @@
 package ucdMib
 
-import "gitlab.hexcloud.cn/third-party/gosnmp"
+import (
+	"github.com/xiao9878/gosnmp"
+	"gitlhub.com/xiao9878/GoSNMPServer"
+)
 import "github.com/shirou/gopsutil/cpu"
 import "github.com/shirou/gopsutil/disk"
 import "github.com/prometheus/procfs"

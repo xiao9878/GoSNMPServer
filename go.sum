@@ -32,6 +32,8 @@ github.com/stretchr/testify v1.4.1-0.20200129000828-ea72eb91592e h1:diXFpsm7FZhZ
 github.com/stretchr/testify v1.4.1-0.20200129000828-ea72eb91592e/go.mod h1:5W2xD1RspED5o8YsWQXVCued0rvSQ+mT+I5cxcmMvtA=
 github.com/urfave/cli v1.22.7 h1:aXiFAgRugfJ27UFDsGJ9DB2FvTC73hlVXFSqq5bo9eU=
 github.com/urfave/cli v1.22.7/go.mod h1:Gos4lmkARVdJ6EkW0WaNv/tZAAMe9V7XWyB60NtXRu0=
+github.com/xiao9878/gosnmp v1.24.3 h1:pPZjjOQw0qVRUcXAi8yrhCua2Yvv1KvAje71G3ugeL0=
+github.com/xiao9878/gosnmp v1.24.3/go.mod h1:rvh9jlb44mBDOVVk+S9tPDvCZ00BVVaw1jQdK3lBW6w=
 gitlab.hexcloud.cn/third-party/gosnmp v1.24.2 h1:EsC2cJFrOD8irhAtKRhzKy2eTapTsmB0ISynEQH9wJY=
 gitlab.hexcloud.cn/third-party/gosnmp v1.24.2/go.mod h1:ZLR3VwHd0kMv399TauGMYYSErm47PZ3wTDWLT+sNvkU=
 golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=

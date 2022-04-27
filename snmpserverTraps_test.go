@@ -10,7 +10,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
-	"gitlab.hexcloud.cn/third-party/gosnmp"
+	"github.com/xiao9878/gosnmp"
 )
 
 type TrapTests struct {

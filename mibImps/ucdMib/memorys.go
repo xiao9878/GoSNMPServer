@@ -1,6 +1,9 @@
 package ucdMib
 
-import "gitlab.hexcloud.cn/third-party/gosnmp"
+import (
+	"github.com/xiao9878/gosnmp"
+	"gitlhub.com/xiao9878/GoSNMPServer"
+)
 import "github.com/shirou/gopsutil/mem"
 
 // MemoryOIDs Returns a list of memory operation.

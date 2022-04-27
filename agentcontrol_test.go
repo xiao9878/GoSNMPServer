@@ -5,7 +5,7 @@ import "testing"
 import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
-	"gitlab.hexcloud.cn/third-party/gosnmp"
+	"github.com/xiao9878/gosnmp"
 )
 
 type ResponseForBufferTestSuite struct {

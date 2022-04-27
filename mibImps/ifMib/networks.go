@@ -1,11 +1,14 @@
 package ifMib
 
-import "fmt"
+import (
+	"fmt"
+	"gitlhub.com/xiao9878/GoSNMPServer"
+)
 import "io/ioutil"
 import "runtime"
 import "strings"
 import "encoding/hex"
-import "gitlab.hexcloud.cn/third-party/gosnmp"
+import "github.com/xiao9878/gosnmp"
 import "github.com/shirou/gopsutil/net"
 import "github.com/pkg/errors"
 

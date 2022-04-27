@@ -4,7 +4,7 @@ import (
 	"net"
 
 	"github.com/pkg/errors"
-	"gitlab.hexcloud.cn/third-party/gosnmp"
+	"github.com/xiao9878/gosnmp"
 )
 
 // PermissionAllowance  ENUM controls for Allowance
