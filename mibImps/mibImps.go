@@ -25,8 +25,8 @@ func SetupLogger(i GoSNMPServer.ILogger) {
 //    includes part of ucdMib, ifMib, and dismanEventMib
 func All() []*GoSNMPServer.PDUValueControlItem {
 	toRet := []*GoSNMPServer.PDUValueControlItem{}
-	toRet = append(toRet, dismanEventMib.All()...)
-	toRet = append(toRet, ifMib.All()...)
-	toRet = append(toRet, ucdMib.All()...)
+	//toRet = append(toRet, dismanEventMib.All()...)
+	//toRet = append(toRet, ifMib.All()...)
+	//toRet = append(toRet, ucdMib.All()...)
 	return toRet
 }

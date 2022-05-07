@@ -14,6 +14,6 @@ func SetupLogger(i GoSNMPServer.ILogger) {
 }
 
 // All function provides a list of common used OID in IF-MIB
-func All() []*GoSNMPServer.PDUValueControlItem {
-	return NetworkOIDs()
-}
+//func All() []*GoSNMPServer.PDUValueControlItem {
+//	return NetworkOIDs()
+//}

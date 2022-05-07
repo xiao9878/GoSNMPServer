@@ -1,21 +1,26 @@
 package dismanEventMib
 
+import "github.com/xiao9878/GoSNMPServer"
+
 //import (
 //	"github.com/xiao9878/GoSNMPServer"
 //	"github.com/xiao9878/gosnmp"
 //)
 //import "github.com/shirou/gopsutil/host"
 //
-//func init() {
-//	g_Logger = GoSNMPServer.NewDiscardLogger()
-//}
+func init() {
+	g_Logger = GoSNMPServer.NewDiscardLogger()
+}
+
 //
-//var g_Logger GoSNMPServer.ILogger
+var g_Logger GoSNMPServer.ILogger
+
 //
 ////SetupLogger Setups Logger for this mib
-//func SetupLogger(i GoSNMPServer.ILogger) {
-//	g_Logger = i
-//}
+func SetupLogger(i GoSNMPServer.ILogger) {
+	g_Logger = i
+}
+
 //
 //// DismanEventOids function provides sysUptime
 ////   see http://www.oid-info.com/get/1.3.6.1.2.1.1.3.0

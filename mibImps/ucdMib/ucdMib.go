@@ -16,10 +16,9 @@ func SetupLogger(i GoSNMPServer.ILogger) {
 // All function provides a list of common used OID in UCD-MIB
 func All() []*GoSNMPServer.PDUValueControlItem {
 	var result []*GoSNMPServer.PDUValueControlItem
-	result = append(result, MemoryOIDs()...)
-	result = append(result, SystemStatsOIDs()...)
-	result = append(result, SystemLoadOIDs()...)
-	result = append(result, DiskUsageOIDs()...)
+	//result = append(result, MemoryOIDs()...)
+	//result = append(result, SystemStatsOIDs()...)
+	//result = append(result, SystemLoadOIDs()...)
+	//result = append(result, DiskUsageOIDs()...)
 	return result
-
 }
