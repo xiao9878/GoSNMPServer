@@ -6,7 +6,7 @@ require (
 	github.com/google/go-cmp v0.5.7 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/procfs v0.0.8
-	github.com/shirou/gopsutil v3.21.11+incompatible
+	//github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.1
 	github.com/tklauser/go-sysconf v0.3.10 // indirect
